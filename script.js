@@ -39,17 +39,6 @@ gsap.from(".project-card", {
 });
 
 
-gsap.from(".timeline-item", {
-  scrollTrigger: {
-    trigger: ".timeline",
-    start: "top 80%",
-  },
-  duration: 1,
-  x: -100,
-  opacity: 0,
-  stagger: 0.4,
-  ease: "power2.out",
-});
 
 // Animaciones dinámicas para experiencia al hacer scroll
 const timelineItems = document.querySelectorAll(".timeline-item");
