@@ -38,6 +38,7 @@ gsap.from(".project-card", {
   ease: "power2.out",
 });
 
+
 gsap.from(".timeline-item", {
   scrollTrigger: {
     trigger: ".timeline",
@@ -61,9 +62,3 @@ window.addEventListener("scroll", () => {
     }
   });
 });
-
-
-
-
-
-
