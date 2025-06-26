@@ -159,3 +159,18 @@ a {
   opacity: 1;
   transform: translateX(0);
 }
+
+
+.highlight-role {
+  font-weight: 700;
+  color: #2b7c95;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.highlight-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-underline-offset: 6px;
+  margin: 10px 0;
+}
