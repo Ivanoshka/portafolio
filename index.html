@@ -14,8 +14,7 @@
 <body>
   <header class="hero">
     <div class="container">
-      <!-- Foto profesional -->
-      <div class="profile-pic-placeholder">[Aquí va tu foto]</div>
+    
 
       <h1 class="title">
         Hola, soy <span class="highlight-role">Product Manager / Coordinador de Proyectos</span>
@@ -35,22 +34,52 @@
     </div>
   </header>
 
-    <section id="about" class="about">
-    <h2>Sobre mí</h2>
-    <p>Profesional multidisciplinario con experiencia en gestión de proyectos de tecnología, desarrollo de software, aseguramiento de calidad y liderazgo de producto. Experto en vincular equipos técnicos y áreas de negocio para generar soluciones funcionales y escalables.</p>
-  </section>
+<section id="about" class="about-section">
+  <div class="about-container">
+    <!-- Imagen profesional -->
+    <div class="about-image">
+      <img src="./yo.png" alt="PM Carlos Ivan Roque Aguilar">
+    </div>
+    <!-- Texto sobre mí -->
+    <div class="about-text">
+      <h2>Sobre mí</h2>
+      <p>
+        Profesional multidisciplinario con experiencia en gestión de proyectos de tecnología, desarrollo de software, aseguramiento de calidad y liderazgo de producto. Experto en vincular equipos técnicos y áreas de negocio para generar soluciones funcionales y escalables.
+      </p>
+    </div>
+  </div>
+</section>
 
-  <section id="skills" class="skills">
-    <h2>Habilidades y Tecnologías</h2>
-    <ul>
-      <li><strong>Gestión de Producto:</strong> Jira, Productboard, RACI, OKRs, Roadmaps</li>
-      <li><strong>Diseño UX/UI:</strong> Figma, diseño centrado en el usuario</li>
-      <li><strong>Metodologías Ágiles:</strong> Scrum, Kanban, Híbridas, Waterfall</li>
-      <li><strong>Lenguajes:</strong> JavaScript, Python, SQL</li>
-      <li><strong>Frameworks:</strong> React, React Native, Node.js</li>
-      <li><strong>QA & Testing:</strong> UAT, pruebas funcionales, automatizadas</li>
-    </ul>
-  </section>
+<section id="skills" class="skills-section">
+  <h2>Habilidades y Tecnologías</h2>
+  <div class="skills-grid">
+    <div class="skill-item">
+      <h3>Gestión de Producto</h3>
+      <p>Jira, Productboard, RACI, OKRs, KPIs, Roadmaps, Backlogs, Confluence, Power BI, Excel</p>
+    </div>
+    <div class="skill-item">
+      <h3>Diseño UX/UI</h3>
+      <p>Figma, diseño centrado en el usuario</p>
+    </div>
+    <div class="skill-item">
+      <h3>Metodologías</h3>
+      <p>Scrum, Kanban, Híbridas, Waterfall, PMBOK</p>
+    </div>
+    <div class="skill-item">
+      <h3>Lenguajes</h3>
+      <p>JavaScript, Python, SQL, HTML, CSS</p>
+    </div>
+    <div class="skill-item">
+      <h3>Frameworks</h3>
+      <p>React, React Native, Node.js</p>
+    </div>
+    <div class="skill-item">
+      <h3>QA & Testing</h3>
+      <p>UAT, pruebas funcionales, automatizadas</p>
+    </div>
+  </div>
+</section>
+
 
 
 
@@ -84,6 +113,11 @@
       <p>Planificación, diseño y desarrollo de un sistema web para la gestión de llantas y mantenimiento preventivo de flotillas. Automatización de registros, alertas de desgaste y control de inventario. Interfaz amigable y adaptable para usuarios administrativos y operativos.</p>
     </div>
 
+      <div class="project-card">
+      <h3>API consulta de RFC nacional OCSP - SAT</h3>
+      <p>Gestión de Desarrollo de API que consulta el OCSP de Servicio de Administración Tributaria consultando la validez de los certificados de la e.firma.</p>
+    </div>
+
     <div class="project-card">
       <h3>App de Control para Sistema de Riego</h3>
       <p>Diseño y desarrollo de aplicación móvil en React Native con integración vía Bluetooth a dispositivos ESP32. Permite controlar y programar horarios de riego de forma remota. Proyecto orientado a optimizar el uso de recursos hídricos en entornos agrícolas pequeños y medianos.</p>
@@ -93,6 +127,8 @@
       <h3>Página Web Corporativa para RECUVEA</h3>
       <p>Diseño y desarrollo de sitio web institucional para RECUVEA, empresa dedicada a soluciones de papelería, tecnología y equipo de cómputo. Implementación responsive, enfoque en posicionamiento SEO básico y estructura para mostrar catálogo de productos y contacto comercial.</p>
     </div>
+
+    
 
   </div>
 </section>
@@ -137,17 +173,19 @@
       </div>
   </section>
 
-  <section id="contact" class="contact">
-    <h2>Contacto</h2>
+<section id="contact" class="contact-section">
+  <h2>Contacto</h2>
+  <div class="contact-info">
     <p><strong>Email:</strong> <a href="mailto:ingcarlosivanroque@gmail.com">ingcarlosivanroque@gmail.com</a></p>
     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tuusuario" target="_blank">linkedin.com/in/tuusuario</a></p>
     <p><strong>GitHub:</strong> <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></p>
-    <p><a href="CV_Carlos_Roque.pdf" class="btn" download>Descargar CV en PDF</a></p>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 - Portafolio de Carlos Ivan Roque Aguilar</p>
-  </footer>
+<footer class="footer">
+  <p>© 2025 - Portafolio de Carlos Ivan Roque Aguilar</p>
+</footer>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
