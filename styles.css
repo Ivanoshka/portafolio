@@ -17,6 +17,16 @@ a {
 }
 
 /* Hero Section */
+
+.title,
+.highlight-name,
+.subtitle,
+.hero .btn {
+  position: relative;   /* Permite usar z-index */
+  z-index: 10;          /* Número alto para que quede por encima */
+}
+
+
 .hero {
   position: relative;
   height: 100vh;
