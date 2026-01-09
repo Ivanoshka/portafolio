@@ -243,13 +243,48 @@ a {
   }
 }
 
-
+#skill
 .skills-section {
   padding: 3rem 1.5rem;
   background-color: #ffffff;
   font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
 }
+
+.skill-title {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.skill-tools {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 14px;
+}
+
+.skill-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px; /* separación entre iconos */
+}
+
+.skill-icons img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15));
+  opacity: 0.9;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.skill-icons img:hover {
+  transform: translateY(-4px);
+  opacity: 1;
+}
+
+
 
 .skills-section h2 {
   font-size: 2rem;
